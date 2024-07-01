@@ -1,2 +1,2 @@
-# OJ
+# BUCTCODER
 BUCTCODER系统开发
