@@ -1,0 +1,18 @@
+#?????????
+server:
+  port: 8090
+
+#?????
+# DataSource Config
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jbdc:mysql://localhost:8090/mybatis
+    username: root
+    password: 123456
+  task:
+    scheduling:
+      pool:
+        size: 3
+
+
